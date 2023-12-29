@@ -1,0 +1,20 @@
+/* configuração de font, botão, design global tudo que se aplica em mais de uma tela */
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #F4F4F4;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.container {
+    width: 100%;
+}

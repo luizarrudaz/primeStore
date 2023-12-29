@@ -1,0 +1,74 @@
+.center-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 60px;
+    max-width: 1200px;
+}
+
+.centered-content {
+    text-align: center; /* Centraliza o conteúdo horizontalmente dentro da div */
+}
+
+.title {
+    font-size: 40px;
+    color: #FE8330;
+}
+
+.paragraph {
+    font-size: 20px;
+}
+
+.sub_title {
+    color: #FE8330;
+}
+
+.container {
+    height: 1200px;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-neutral-0);
+    margin-top: 0%;
+    font-size: 0.9rem;
+    z-index: 100px;
+    padding: 1.2rem;
+    font-weight: 100;
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    /* Ajustes para telas menores */
+    .center-div {
+        flex-direction: column; /* Alinha verticalmente em telas menores */
+        margin-top: 60px; /* Reduz a margem superior em telas menores */
+        max-width: 425px;
+    }
+
+    .title {
+        font-size: 30px; /* Reduz o tamanho da fonte em telas menores */
+    }
+
+    .paragraph {
+        font-size: 16px; /* Reduz o tamanho da fonte em telas menores */
+    }
+
+    .container {
+        height: auto; /* Permite que a altura se ajuste ao conteúdo em telas menores */
+    }
+
+    #footer {
+        display: flex;
+        justify-content: center;
+        background-color: var(--color-neutral-0);
+        margin-top: 0%;
+        font-size: 0.9rem;
+        z-index: 100px;
+        padding: 1.2rem;
+        font-weight: 100;
+        position: relative;
+    }
+}
